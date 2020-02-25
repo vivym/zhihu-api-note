@@ -39,7 +39,7 @@ API返回结果格式为：
   ],
   "ad_info": { // “随机”出现
     "ad": {
-		},
+    },
     "adjson": "",
     "position": 12
   }
@@ -66,16 +66,16 @@ TODO
 
 ```
 include=
-	data[*]
-		.is_normal,
-		.admin_closed_comment,
-		.excerpt,
-		.question;
-	data[*]
-		.author
-			.follower_count
-			badge[*]
-				.topics
+  data[*]
+    .is_normal,
+    .admin_closed_comment,
+    .excerpt,
+    .question;
+  data[*]
+    .author
+      .follower_count
+      badge[*]
+        .topics
 ```
 
 TODO：`include`参数的解析方式不明，还需要进一步分析代码
