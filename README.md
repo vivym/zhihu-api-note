@@ -141,7 +141,7 @@ include=data[*].question.detail,excerpt
 
 #### (3) 返回
 
-[示例一](/data/questions_ answers1.json)
+[示例一](/data/questions-answers1.json)
 
-[示例二](/data/questions_ answers2.json)
+[示例二](/data/questions-answers2.json)
 
