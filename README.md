@@ -51,7 +51,7 @@ API返回结果格式为：
 请求时在querystring中加参数：
 
 1. limit：返回数据的最大数量
-2. offset: 偏移
+2. offset：偏移
 3. sort_by：排序方式，default
 
 返回的数据中，`paging`字段包含分页信息。
@@ -143,5 +143,5 @@ include=data[*].question.detail,excerpt
 
 [示例一](/data/questions-answers1.json)
 
-[示例二](/data/questions-answers2.json)
+[示例二（内含`ad_info`字段）](/data/questions-answers2.json)
 
