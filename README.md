@@ -24,14 +24,14 @@ API返回结果格式为：
 
 2. 成功示例：
 
-```json
+```javascript
 {
   "paging": { // 分页方案
     "is_end": false,
     "is_start": false,
     "next": "url",
     "previous": "url",
-    totals: 590
+    "totals": 590
   },
   "data": [ // 数组
     {
