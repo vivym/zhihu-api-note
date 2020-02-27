@@ -129,7 +129,7 @@ include=data[*].question.detail,excerpt
 
 ### 3. 问题 + 回答
 
-`/api/v4/questions/{:question_id}/answers?include={:include}&limit={:limit}&offset={:offset}&platform=desktop&sort_by=default`
+`/api/v4/questions/{:question_id}/answers?include={:include}&limit={:limit}&offset={:offset}&platform=desktop&sort_by={:sort_by}`
 
 #### (1) 权限
 
@@ -137,7 +137,10 @@ include=data[*].question.detail,excerpt
 
 #### (2) 参数
 
+**sort_by**:
 
+1. default，默认顺序
+2. updated，更新顺序
 
 #### (3) 返回
 
